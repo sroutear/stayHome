@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, sans-serif;
+}
+
+nav.navbar {
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar .navbar-brand:hover {
+  cursor: pointer;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top .navbar-brand:hover {
+  cursor: pointer;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(../img/topbg.jfif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center bottom;
+  margin-bottom: 0px;
+}
+
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+
+header.jumbotron hr {
+  max-width: 50px;
+  border: none;
+  height: 5px;
+  background-color: #ff6e3a;
+}
+
+header.jumbotron h1 {
+  color: white;
+  letter-spacing: 10px;
+  font-family: Crimson Text, serif;
+  font-weight: normal;
+}
+
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #ff6e3a;
+}
+
+section#section_ask .col-sm-6.img {
+  background-image: url(../img/room.png);
+  height: 300px;
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+section#section_ask h2 {
+  margin-top: 100px;
+}
+
+section#section_about img {
+  width: 100%;
+  height: 100%;
+}
+
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+
+section#section_story .col-sm-5 {
+  background-image: url(../img/pic04.jpg);
+  background-size: 120% auto;
+  height: 350px;
+}
+
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+
+section#section_story .col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section#section_future img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+section#section_future i {
+  font-size: 30px;
+}
+
+section#section_future .feature {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(../img/footerbg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+
+footer.jumbotron hr {
+  max-width: 50px;
+  border: none;
+  height: 5px;
+  background-color: #ff6e3a;
+}
+
+footer.jumbotron .copyright {
+  height: 40px;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  padding: 5px 0px;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */
